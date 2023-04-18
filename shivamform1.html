@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TUTORIAL</title>
+</head>
+<body>
+    <h3>This is HTML form Tutorial</h3>
+    <form action="backend.php">
+         <h4>Salutation:</h4>
+         <select name="Salutation" size="1" >
+            <option value="Mr.">Mr.</option>
+            <option value="Ms." selected>Ms.</option>
+         </select>
+            <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="roll">Roll number:</label>
+            <input type="number" name="myRoll" id="roll">
+            </div>
+
+            <br>
+            <div>
+                <label for="email">Email:</label>
+            <input type="email" name="myEmail" id="email">
+            </div>
+            
+            <br>
+            <div>
+                <label for="date">Date:</label>
+            <input type="date" name="myDate" id="date">
+            </div>
+
+            <br>
+            <div>
+                <label for="bonus">Bonus:</label>
+            <input type="number" name="myBonus" id="bonus">
+            </div>
+            <br>
+            <div>
+                <label for="eligibility">Are you Eligible:</label>
+            <input type="checkbox" name="myEligibility" id="eligibility">
+            </div>
+
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+            Male<input type="radio" name="myGender" id="gender"> Female<input type="radio" name="myGender" id="gender"> Other<input type="radio" name="myGender" id="gender">
+            </div>
+        <br>
+        <div>
+            <label for="yourself">Write about yourself:</label>
+            <br>
+            <textarea name="myText" id="yourself" cols="30" rows="10"></textarea>
+        </div>    
+                <br>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+         </form>
+
+         
+</body>
+</html>
